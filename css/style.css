@@ -17,6 +17,7 @@ body {
     border-bottom: 1px solid #000;
     position: relative;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #dino {
@@ -60,10 +61,10 @@ body {
 
 @keyframes cactusMove {
     0% {
-        left: 100%;
+        left: calc(100% + 35px);
     }
     100% {
-        left: 0%;
+        left: calc(0% - 35px);
     }
 }
 

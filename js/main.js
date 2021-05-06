@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(offsetBottomDinosaur);
     }
 
-    setInterval(gameOver, 100);
+    setInterval(gameOver, 10);
 
     replay.addEventListener('click', () => {
         cactus.style.animation = 'cactusMove 1.5s infinite linear';
